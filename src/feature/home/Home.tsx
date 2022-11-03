@@ -26,14 +26,15 @@ export const Home = observer(() => {
                     <div className="inline space-x-4 mx-4">
                         <LibraryLink name="vite" href="https://vitejs.dev/"/>
                         <LibraryLink name="typescript" href="https://www.typescriptlang.org/"/>
-                        <LibraryLink name="eact-router" href="https://reactrouter.com"/>
+                        <LibraryLink name="react-router" href="https://reactrouter.com"/>
                         <LibraryLink name="tailwindcss" href="https://tailwindcss.com/"/>
                         <LibraryLink name="daysiui" href="https://daisyui.com/"/>
+                        <LibraryLink name="mobx" href="https://mobx.js.org/"/>
                     </div>
                     with <strong>MVVM</strong> architecture
                 </p>
                 <div className="card-actions justify-end">
-                    <a className="btn btn-primary" href="https://github.com/amir1376">
+                    <a className="btn btn-primary" href="https://github.com/amir1376/react-template">
                         View In Github
                     </a>
                 </div>
