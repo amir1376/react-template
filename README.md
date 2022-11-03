@@ -14,19 +14,25 @@ this structure is based on MVVM
 ## Usage
 
 Grab `degit` from npm
-
-`npm install -g degit`
+```shell
+npm install -g degit
+```
 
 Create your project folder and execute this command in that folder
 
-`degit amir1376/react-template/`
+ ```shell
+ degit amir1376/react-template/
+ ```
 
 Install dependencies
-
-`npm i`
+```shell
+npm i
+```
 
 Start development server
 
-`npm run dev`
+```shell
+npm run dev
+```
 
 Happy codding 
