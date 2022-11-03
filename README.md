@@ -10,3 +10,14 @@ here is main libraries that used in this template
 - `mobx` as state management
 
 this structure is based on MVVM
+
+## Usage
+
+grab degit from npm
+
+`npm install -g degit`
+
+Create your project folder and execute this command in that folder
+
+`degit amir1376/react-template/`
+
