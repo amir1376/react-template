@@ -1,5 +1,5 @@
 import {observer} from "mobx-react-lite";
-import {useViewModel} from "../../Base/BaseViewModel";
+import {useViewModel} from "../../base/BaseViewModel";
 import {HomeViewModel} from "./HomeViewModel";
 import {Helmet} from "react-helmet"
 function LibraryLink(props: { name: string, href: string }) {

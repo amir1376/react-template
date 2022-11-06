@@ -1,4 +1,4 @@
-import {BaseViewModel} from "../../Base/BaseViewModel";
+import {BaseViewModel} from "../../base/BaseViewModel";
 import {action, makeObservable, observable} from "mobx";
 
 export class HomeViewModel extends BaseViewModel {
