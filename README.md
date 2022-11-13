@@ -1,8 +1,8 @@
 ## React Template
 
-this is a React ready to use template for quick start
+This is a React ready to use template for quick start
 
-here is main libraries that used in this template
+These are the main libraries that used in this template
 - `vite` as bundler
 - `typescript` as default programming language
 - `react router` as routing system
@@ -35,4 +35,4 @@ Start development server
 npm run dev
 ```
 
-Happy codding 
+Happy coding 
