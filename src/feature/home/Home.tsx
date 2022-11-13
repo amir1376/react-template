@@ -2,12 +2,15 @@ import {observer} from "mobx-react-lite";
 import {useViewModel} from "../../base/BaseViewModel";
 import {HomeViewModel} from "./HomeViewModel";
 import {Helmet} from "react-helmet"
-function LibraryLink(props: { name: string, href: string }) {
-    return <a className="text-blue-500" href={props.href}>
-        {props.name}
-    </a>
-}
-export const Home = observer(() => {
+import React from "react";
+
+const LibraryLink: React.FC<{
+    name: string, href: string
+}> = (props) => <a className="text-blue-500" href={props.href}>
+    {props.name}
+</a>;
+
+export const Home: React.FC = observer(() => {
     const vm = useViewModel(() => new HomeViewModel())
 
     return <div className="min-h-screen container gap-4 flex flex-col justify-center items-center">
