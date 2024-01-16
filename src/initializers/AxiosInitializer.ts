@@ -1,5 +1,5 @@
 import axios from "axios";
-import {Initializer} from "../contructs/Initializer";
+import {Initializer} from "~/contructs/Initializer";
 
 export default class AxiosInitializer implements Initializer {
     async init() {

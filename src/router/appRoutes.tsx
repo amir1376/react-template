@@ -1,5 +1,5 @@
 import {Route, Routes} from "react-router-dom";
-import {Home} from "../feature/home/Home";
+import {Home} from "~/feature/home/Home";
 
 export function AppRoutes() {
     return <Routes>

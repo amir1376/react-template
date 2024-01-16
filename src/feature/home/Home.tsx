@@ -1,5 +1,5 @@
 import {observer} from "mobx-react-lite";
-import {useViewModel} from "../../base/BaseViewModel";
+import {useViewModel} from "~/base/BaseViewModel";
 import {HomeViewModel} from "./HomeViewModel";
 import {Helmet} from "react-helmet"
 import React from "react";

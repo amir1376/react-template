@@ -1,5 +1,5 @@
 import AxiosInitializer from "./AxiosInitializer";
-import {Initializer} from "../contructs/Initializer";
+import {Initializer} from "~/contructs/Initializer";
 
 export const noneHeavyInitializers = [
     //define initializers here
