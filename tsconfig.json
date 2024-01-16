@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
     "experimentalDecorators": true,
     "target": "ESNext",
     "useDefineForClassFields": true,
