@@ -15,7 +15,6 @@
     "mobx": "^6.13.6",
     "mobx-react-lite": "^4.1.0",
     "postcss": "^8.5.2",
-    "postcss-nested": "^7.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-helmet": "^6.1.0",
@@ -24,7 +23,6 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.17.15",
-    "@types/node": "^22.13.4",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@types/react-helmet": "^6.1.11",

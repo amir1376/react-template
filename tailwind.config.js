@@ -1,17 +1,15 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {
-      container: {
-        center: true,
-      }
+    content: [
+        "./src/**/*.{js,jsx,ts,tsx}",
+    ],
+    theme: {
+        extend: {
+            container: {
+                center: true,
+            }
+        },
     },
-  },
-  plugins: [
-    require("daisyui"),
-  ],
-
-
+    plugins: [
+        require("daisyui"),
+    ],
 }
